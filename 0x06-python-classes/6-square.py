@@ -10,34 +10,23 @@ class Square:
     def __init__(self, size=0, position=(0, 0)):
         """Initializes the size variable as a private
         instance artribute
-        
+
         """
         self.size = size
         self.position = position
 
     def area(self):
-        """calculates the square's area
-        Returns:
-            The area of the square
-        """
+        """Returns the current square area"""
         return (self.__size) ** 2
 
     @property
     def size(self):
-        """getter of __size
-        Returns:
-            The size of the square
-        """
+        """Instantiation with optional size of square"""
         return self.__size
 
     @size.setter
     def size(self, value):
-        """setter of __size
-        Args:
-            value (int): size of a side of the square
-        Returns:
-            None
-        """
+        """Gets the size of the square"""
         if type(value) is not int:
             raise TypeError("size must be an integer")
         else:
@@ -47,10 +36,7 @@ class Square:
                 self.__size = value
 
     def my_print(self):
-        """prints the square
-        Returns:
-            None
-        """
+        """Prints the square with the '#' character."""
         if self.__size == 0:
             print()
             return
@@ -62,19 +48,14 @@ class Square:
 
     @property
     def position(self):
-        """getter of __position
-        Returns:
-            The position of the square in 2D space
-        """
+        """Get/set the current position of the square."""
         return self.__position
 
     @position.setter
     def position(self, value):
-        """setter of __position
-        Args:
-            value (tuple): position of the square in 2D space
-        Returns:
-            None
+        """must be a tuple of 2 positive integers,
+        otherwise raise a TypeError exception
+
         """
         if type(value) is not tuple or len(value) != 2 or \
            type(value[0]) is not int or value[0] < 0 or \
