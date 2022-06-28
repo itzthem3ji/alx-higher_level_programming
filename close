@@ -1,0 +1,111 @@
+[33mcommit c58af86bc6b553991024b0f97418b725e7e14101[m
+Author: Feyitimi Victor <victorfeyitimi@gmail.com>
+Date:   Thu Jun 23 04:43:43 2022 +0100
+
+    6-square
+
+[1mdiff --git a/0x06-python-classes/6-square.py b/0x06-python-classes/6-square.py[m
+[1mindex cbeb2fa..d2df294 100755[m
+[1m--- a/0x06-python-classes/6-square.py[m
+[1m+++ b/0x06-python-classes/6-square.py[m
+[36m@@ -1,65 +1,60 @@[m
+ #!/usr/bin/python3[m
+[31m-"""Defines a class Square"""[m
+[32m+[m
+[32m+[m[32m"""Define a class Square."""[m
+ [m
+ [m
+ class Square:[m
+[31m-    """Square class with a private attribute -[m
+[31m-    size.[m
+[32m+[m[32m    """Represent a square."""[m
+ [m
+[31m-    """[m
+     def __init__(self, size=0, position=(0, 0)):[m
+[31m-        """Initializes the size variable as a private[m
+[31m-        instance artribute[m
+[32m+[m[32m        """Initialize a new square.[m
+ [m
+[32m+[m[32m        Args:[m
+[32m+[m[32m            size (int): The size of the new square.[m
+[32m+[m[32m            position (int, int): The position of the new square.[m
+         """[m
+         self.size = size[m
+         self.position = position[m
+ [m
+[31m-    def area(self):[m
+[31m-        """Returns the current square area"""[m
+[31m-        return (self.__size) ** 2[m
+[31m-[m
+     @property[m
+     def size(self):[m
+[31m-        """Instantiation with optional size of square"""[m
+[31m-        return self.__size[m
+[32m+[m[32m        """Get/set the current size of the square."""[m
+[32m+[m[32m        return (self.__size)[m
+ [m
+     @size.setter[m
+     def size(self, value):[m
+[31m-        """Gets the size of the square"""[m
+[31m-        if type(value) is not int:[m
+[32m+[m[32m        if not isinstance(value, int):[m
+             raise TypeError("size must be an integer")[m
+[31m-        else:[m
+[31m-            if value < 0:[m
+[31m-                raise ValueError("size must be >= 0")[m
+[31m-            else:[m
+[31m-                self.__size = value[m
+[31m-[m
+[31m-    def my_print(self):[m
+[31m-        """Prints the square with the '#' character."""[m
+[31m-        if self.__size == 0:[m
+[31m-            print()[m
+[31m-            return[m
+[31m-        for i in range(self.__position[1]):[m
+[31m-            print()[m
+[31m-        for j in range(self.__size):[m
+[31m-            print("".join([" " for k in range(self.__position[0])]), end="")[m
+[31m-            print("".join(["#" for l in range(self.__size)]))[m
+[32m+[m[32m        elif value < 0:[m
+[32m+[m[32m            raise ValueError("size must be >= 0")[m
+[32m+[m[32m        self.__size = value[m
+ [m
+     @property[m
+     def position(self):[m
+         """Get/set the current position of the square."""[m
+[31m-        return self.__position[m
+[32m+[m[32m        return (self.__position)[m
+ [m
+     @position.setter[m
+     def position(self, value):[m
+[31m-        """must be a tuple of 2 positive integers,[m
+[31m-        otherwise raise a TypeError exception[m
+[31m-[m
+[31m-        """[m
+[31m-        if type(value) is not tuple or len(value) != 2 or \[m
+[31m-           type(value[0]) is not int or value[0] < 0 or \[m
+[31m-           type(value[1]) is not int or value[1] < 0:[m
+[32m+[m[32m        if (not isinstance(value, tuple) or[m
+[32m+[m[32m                len(value) != 2 or[m
+[32m+[m[32m                not all(isinstance(num, int) for num in value) or[m
+[32m+[m[32m                not all(num >= 0 for num in value)):[m
+             raise TypeError("position must be a tuple of 2 positive integers")[m
+[31m-        else:[m
+[31m-            self.__position = value[m
+[32m+[m[32m        self.__position = value[m
+[32m+[m
+[32m+[m[32m    def area(self):[m
+[32m+[m[32m        """Return the current area of the square."""[m
+[32m+[m[32m        return (self.__size * self.__size)[m
+[32m+[m
+[32m+[m[32m    def my_print(self):[m
+[32m+[m[32m        """Print the square with the # character."""[m
+[32m+[m[32m        if self.__size == 0:[m
+[32m+[m[32m            print("")[m
+[32m+[m[32m            return[m
+[32m+[m
+[32m+[m[32m        [print("") for i in range(0, self.__position[1])][m
+[32m+[m[32m        for i in range(0, self.__size):[m
+[32m+[m[32m            [print(" ", end="") for j in range(0, self.__position[0])][m
+[32m+[m[32m            [print("#", end="") for k in range(0, self.__size)][m
+[32m+[m[32m            print("")[m

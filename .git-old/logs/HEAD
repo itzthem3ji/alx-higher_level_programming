@@ -1,0 +1,58 @@
+0000000000000000000000000000000000000000 6fc5bb1c816d3477e382ea0f637ab96455f9660c Feyitimi Victor <victorfeyitimi@gmail.com> 1653972930 +0100	commit (initial): first commit
+6fc5bb1c816d3477e382ea0f637ab96455f9660c 0000000000000000000000000000000000000000 Feyitimi Victor <victorfeyitimi@gmail.com> 1653972964 +0100	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 6fc5bb1c816d3477e382ea0f637ab96455f9660c Feyitimi Victor <victorfeyitimi@gmail.com> 1653972964 +0100	Branch: renamed refs/heads/master to refs/heads/main
+6fc5bb1c816d3477e382ea0f637ab96455f9660c 7057fd3fcb3da22da8844d39c4ed91cae8a0035f Feyitimi Victor <victorfeyitimi@gmail.com> 1653973120 +0100	commit: Hello World - Python
+7057fd3fcb3da22da8844d39c4ed91cae8a0035f a225c91da84d2b5397bc944f4277d02bb24076a2 Feyitimi Victor <victorfeyitimi@gmail.com> 1653973420 +0100	commit: 0-run
+a225c91da84d2b5397bc944f4277d02bb24076a2 cab929310d7533b026db2b50df47c0873e0e828c Feyitimi Victor <victorfeyitimi@gmail.com> 1653973575 +0100	commit: 0-run
+cab929310d7533b026db2b50df47c0873e0e828c 4557f07a5ab61fe95374b9efe036637a8793db66 Feyitimi Victor <victorfeyitimi@gmail.com> 1653973737 +0100	commit: 0-run
+4557f07a5ab61fe95374b9efe036637a8793db66 cfb737d1f3dc1256584b631328ff5c6a573a544a Feyitimi Victor <victorfeyitimi@gmail.com> 1653974672 +0100	commit: 0-run
+cfb737d1f3dc1256584b631328ff5c6a573a544a 9388917f407b80c6618103f2bee7dd8324df245f Feyitimi Victor <victorfeyitimi@gmail.com> 1653974697 +0100	commit: 0-run
+9388917f407b80c6618103f2bee7dd8324df245f 537a1adc90ba19f3b496c3c5be8181dbc4a05c7c Feyitimi Victor <victorfeyitimi@gmail.com> 1653974857 +0100	commit: 1-run_inline
+537a1adc90ba19f3b496c3c5be8181dbc4a05c7c 5662d4ee9e033c1d0d111b5167defb1019ecd579 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975220 +0100	commit: 2-print
+5662d4ee9e033c1d0d111b5167defb1019ecd579 fffbbc8d03baacf3cb070c0e0600a68f3af54ebc Feyitimi Victor <victorfeyitimi@gmail.com> 1653975329 +0100	commit: make executable
+fffbbc8d03baacf3cb070c0e0600a68f3af54ebc 9b91248a712e802d01dbbb4efb7fce0c02d90356 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975505 +0100	commit: lists
+9b91248a712e802d01dbbb4efb7fce0c02d90356 336984b196308c0e3730bac871ce2f413cea5c78 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975593 +0100	commit: reset
+336984b196308c0e3730bac871ce2f413cea5c78 fccd4fef4a0a343087881f539e4d541de2574585 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975675 +0100	commit: reset
+fccd4fef4a0a343087881f539e4d541de2574585 e8a65360af3d498d525e785c978b2f3813a33eb5 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975759 +0100	commit: refix
+e8a65360af3d498d525e785c978b2f3813a33eb5 661f3f873fba4431380d2e1b932f7d8ebde54ac6 Feyitimi Victor <victorfeyitimi@gmail.com> 1653975915 +0100	commit: 3-print_number
+661f3f873fba4431380d2e1b932f7d8ebde54ac6 980cf810fd56b32cfc137cd3e986b6818ef1de95 Feyitimi Victor <victorfeyitimi@gmail.com> 1653976281 +0100	commit: 3-print_number
+980cf810fd56b32cfc137cd3e986b6818ef1de95 cd1c73c8300190b4ad39dd27f1a9f8d0cdc11dd8 Feyitimi Victor <victorfeyitimi@gmail.com> 1653976369 +0100	commit: 3-print_number
+cd1c73c8300190b4ad39dd27f1a9f8d0cdc11dd8 442b18d364659daf7f0665946e63cb4484a0babe Feyitimi Victor <victorfeyitimi@gmail.com> 1653976497 +0100	commit: 3-print_number
+442b18d364659daf7f0665946e63cb4484a0babe 30351d5e540ba7de1b88cb81d243083544ebcb86 Feyitimi Victor <victorfeyitimi@gmail.com> 1653976574 +0100	commit: 3-print_number
+30351d5e540ba7de1b88cb81d243083544ebcb86 930171c9a1f58049b1527d7b913f7c80ea29f4f6 Feyitimi Victor <victorfeyitimi@gmail.com> 1653982337 +0100	commit: 101-compile
+930171c9a1f58049b1527d7b913f7c80ea29f4f6 59b8440b6abafe2057973b619c602f8121dd7f16 Feyitimi Victor <victorfeyitimi@gmail.com> 1653983101 +0100	commit: 4-print_float
+59b8440b6abafe2057973b619c602f8121dd7f16 ee4c0669da7dc15b52e8d5b5edef600d88de8d2f Feyitimi Victor <victorfeyitimi@gmail.com> 1653983348 +0100	commit: 3-print_number
+ee4c0669da7dc15b52e8d5b5edef600d88de8d2f aa31ee55fcfcea9d7da938bd6823b42a038d3255 Feyitimi Victor <victorfeyitimi@gmail.com> 1653983405 +0100	commit: 3-print_number
+aa31ee55fcfcea9d7da938bd6823b42a038d3255 11f5df29da095dd88b6e280a94adc4cb76582be4 Feyitimi Victor <victorfeyitimi@gmail.com> 1653984506 +0100	commit: 3-print_number
+11f5df29da095dd88b6e280a94adc4cb76582be4 fb924cc215f4a98cee33652506fa043c7aff472a Feyitimi Victor <victorfeyitimi@gmail.com> 1653985202 +0100	commit: 3-print_number
+fb924cc215f4a98cee33652506fa043c7aff472a 625fe79d869432bfaadddddef5ad5ada0638654c Feyitimi Victor <victorfeyitimi@gmail.com> 1654024387 +0100	commit: 3-print_number
+625fe79d869432bfaadddddef5ad5ada0638654c 1ac930a546da60be3a6ca451f5fe3626d439d033 Feyitimi Victor <victorfeyitimi@gmail.com> 1654031548 +0100	commit: if_else_loops_functions
+1ac930a546da60be3a6ca451f5fe3626d439d033 1ac930a546da60be3a6ca451f5fe3626d439d033 Feyitimi Victor <victorfeyitimi@gmail.com> 1654291761 +0100	pull origin main: updating HEAD
+1ac930a546da60be3a6ca451f5fe3626d439d033 58f6c44386123a1e248f4952fe491c615968687c Feyitimi Victor <victorfeyitimi@gmail.com> 1654291761 +0100	pull origin main: checkout 58f6c44386123a1e248f4952fe491c615968687c
+58f6c44386123a1e248f4952fe491c615968687c 58f6c44386123a1e248f4952fe491c615968687c Feyitimi Victor <victorfeyitimi@gmail.com> 1654291761 +0100	rebase finished: refs/heads/main onto 58f6c44386123a1e248f4952fe491c615968687c
+58f6c44386123a1e248f4952fe491c615968687c 0614c8cf32b114427899cacd424f6a42d0edddad Feyitimi Victor <victorfeyitimi@gmail.com> 1654325844 +0100	commit: python data structures
+0614c8cf32b114427899cacd424f6a42d0edddad d140319a4d7bde9af9d0a6b4924c1651e40397d8 Feyitimi Victor <victorfeyitimi@gmail.com> 1654326000 +0100	commit: python data structures
+d140319a4d7bde9af9d0a6b4924c1651e40397d8 c95b82bda003148838ce2077849788863a80d4e3 Feyitimi Victor <victorfeyitimi@gmail.com> 1654326371 +0100	commit: print matrix integer
+c95b82bda003148838ce2077849788863a80d4e3 e68e4a920506c521512c1bada811bb8f31ab55ac Feyitimi Victor <victorfeyitimi@gmail.com> 1654716078 +0100	commit: dictionaries and sets
+e68e4a920506c521512c1bada811bb8f31ab55ac cf4e8ddaf0efb21193de9cd1b1367b7187e3cad1 Feyitimi Victor <victorfeyitimi@gmail.com> 1655757799 +0100	commit: python exceptions
+cf4e8ddaf0efb21193de9cd1b1367b7187e3cad1 67887e2e3e8a0dcdcdabaac443f83a44c4165ea0 Feyitimi Victor <victorfeyitimi@gmail.com> 1655781402 +0100	commit: python exceptions
+67887e2e3e8a0dcdcdabaac443f83a44c4165ea0 29d798fa379b18c4bc2c8e303709ba5f4464abb4 Feyitimi Victor <victorfeyitimi@gmail.com> 1655781545 +0100	commit: python exceptions
+29d798fa379b18c4bc2c8e303709ba5f4464abb4 e362168233e000a3d178d85f81b52337061443b8 Feyitimi Victor <victorfeyitimi@gmail.com> 1655781615 +0100	commit: python exceptions
+e362168233e000a3d178d85f81b52337061443b8 116b2653ebff9dea5d56a5c6be59abfe381d5a5f Feyitimi Victor <victorfeyitimi@gmail.com> 1655782229 +0100	commit: python exceptions
+116b2653ebff9dea5d56a5c6be59abfe381d5a5f 4915ed76bbfb10cc235f07cd5e8ed08962f821f0 Feyitimi Victor <victorfeyitimi@gmail.com> 1655950958 +0100	commit: python classes
+4915ed76bbfb10cc235f07cd5e8ed08962f821f0 c356d214c4dbb182a8d9a3fd47229210acb62465 Feyitimi Victor <victorfeyitimi@gmail.com> 1655951511 +0100	commit: python classes
+c356d214c4dbb182a8d9a3fd47229210acb62465 3b147f7b3cc9958e6bff1eb9f341e37e20ab7953 Feyitimi Victor <victorfeyitimi@gmail.com> 1655951769 +0100	commit: python classes
+3b147f7b3cc9958e6bff1eb9f341e37e20ab7953 03417093c9be57a3c2a19ebca2e1aba8ef9f436c Feyitimi Victor <victorfeyitimi@gmail.com> 1655951896 +0100	commit: 6-square
+03417093c9be57a3c2a19ebca2e1aba8ef9f436c af261e6fd2a13c03b545711e5d621e08cd273bbc Feyitimi Victor <victorfeyitimi@gmail.com> 1655952144 +0100	commit: 6-square
+af261e6fd2a13c03b545711e5d621e08cd273bbc d5eda25122ee37bdd939be628642325a00198664 Feyitimi Victor <victorfeyitimi@gmail.com> 1655952221 +0100	commit: 6-square
+d5eda25122ee37bdd939be628642325a00198664 c16dfc77eb2df12b1cac6f0ae16873351eaeae9b Feyitimi Victor <victorfeyitimi@gmail.com> 1655952598 +0100	commit: python classes
+c16dfc77eb2df12b1cac6f0ae16873351eaeae9b eeb584a2346d5d53a147af47243d0cfec011e695 Feyitimi Victor <victorfeyitimi@gmail.com> 1655952684 +0100	commit: python classes
+eeb584a2346d5d53a147af47243d0cfec011e695 3076bd373c83b759207a5cf0cd42cdfcbb7aaabe Feyitimi Victor <victorfeyitimi@gmail.com> 1655953612 +0100	commit: 6-square
+3076bd373c83b759207a5cf0cd42cdfcbb7aaabe 63bacd007cfd10a4c94dd4e33fb6d06e17eebc81 Feyitimi Victor <victorfeyitimi@gmail.com> 1655953775 +0100	commit: 6-square
+63bacd007cfd10a4c94dd4e33fb6d06e17eebc81 83227d545c7a1cacee353a161e32254bcd983b82 Feyitimi Victor <victorfeyitimi@gmail.com> 1655953844 +0100	commit: 6-square
+83227d545c7a1cacee353a161e32254bcd983b82 5bfce3ef7f37505a4be45831e42649c1cc6d5249 Feyitimi Victor <victorfeyitimi@gmail.com> 1655954121 +0100	commit: 6-square
+5bfce3ef7f37505a4be45831e42649c1cc6d5249 b7878a5106ae59e801b854375b52394385c80cb1 Feyitimi Victor <victorfeyitimi@gmail.com> 1655954501 +0100	commit: 6-square
+b7878a5106ae59e801b854375b52394385c80cb1 09a13a48db7090bd1c06d9623ac9f4171505ad17 Feyitimi Victor <victorfeyitimi@gmail.com> 1655954846 +0100	commit: 6-square
+09a13a48db7090bd1c06d9623ac9f4171505ad17 54f67e42e4dc333c5894872da9301a26502d10ec Feyitimi Victor <victorfeyitimi@gmail.com> 1655955385 +0100	commit: 6-square
+54f67e42e4dc333c5894872da9301a26502d10ec c58af86bc6b553991024b0f97418b725e7e14101 Feyitimi Victor <victorfeyitimi@gmail.com> 1655955823 +0100	commit: 6-square
+c58af86bc6b553991024b0f97418b725e7e14101 3cd9abb2579c8c370dfb1c825617274689b71951 Feyitimi Victor <victorfeyitimi@gmail.com> 1656022832 +0100	commit: test driven
