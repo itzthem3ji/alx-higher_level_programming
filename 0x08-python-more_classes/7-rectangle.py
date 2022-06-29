@@ -23,7 +23,7 @@ class Rectangle:
     def width(self):
         """Getter function of width
         Returns:
-            int -- width fo the rectangle
+            int -- width of the rectangle
         """
         return self.__width
 
