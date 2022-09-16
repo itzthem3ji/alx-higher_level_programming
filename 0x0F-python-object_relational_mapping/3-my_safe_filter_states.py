@@ -1,15 +1,20 @@
 #!/usr/bin/python3
-"""SQL injection"""
-from sys import argv
+"""
+python script that lists all states from the database hbtn_0e_0_usa with a
+given name and is safe from MySQL injections
+"""
+
 import MySQLdb
+from sys import argv
 
-
-if __name__ == '__main__':
-    user, password, database, state = argv[1], argv[2], argv[3], argv[4]
-    db = MySQLdb.connect(host="localhost",
-                         user=user, passwd=password, db=database)
-    db = db.cursor()
-    db.execute("""SELECT * FROM states WHERE name=%s ORDER BY id""", (state,))
-    r = db.fetchall()
-    for i in r:
-        print(i)
+if __name__ == "__main__":
+    db = MySQLdb.connect(host="localhost", port=3306, user=argv[1],
+                         passwd=argv[2], db=argv[3], charset="utf8")
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM states WHERE name LIKE %s ORDER BY id ASC",
+                   (argv[4],))
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+    cursor.close()
+    db.close()

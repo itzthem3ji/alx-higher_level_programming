@@ -1,24 +1,32 @@
 #!/usr/bin/python3
-"""
-Improve the files model_city.py and model_state.py, and save
-them as relationship_city.py and relationship_state.py
-"""
-import sys
-from sqlalchemy.orm import Session
+""" List all state objects using sqlalchemy """
+
+from relationship_state import Base, State
+from relationship_city import City
+from sqlalchemy.orm.session import sessionmaker, Session
 from sqlalchemy import create_engine
-from relationship_state import State
-from relationship_city import City, Base
+from sys import argv
 
 
-if __name__ == "__main__":
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
-                           .format(sys.argv[1], sys.argv[2], sys.argv[3]),
-                           pool_pre_ping=True)
+if __name__ == '__main__':
+
+    username = argv[1]
+    password = argv[2]
+    db_name = argv[3]
+
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
+                           .format(username, password, db_name))
+
     Base.metadata.create_all(engine)
-    session = Session(engine)
-    s1 = State(name='California')
-    c1 = City(name='San Francisco')
-    s1.cities.append(c1)
-    session.add_all([c1, s1])
+
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    new_state = State(name='California')
+    new_city = City(name='San Francisco', state=new_state)
+    new_state.cities.append(new_city)
+
+    session.add(new_state)
+    session.add(new_city)
+
     session.commit()
-    session.close()
